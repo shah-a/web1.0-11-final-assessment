@@ -7,52 +7,57 @@
 </head>
 
 <body>
-  <section id="student-info">
-    <h1>Ali Shah</h1>
-    <p>My favourite colour is blue and I wear comfy socks :)</p>
-  </section>
+  <div>
+    <section id="student-info">
+      <h1>Ali Shah</h1>
+      <p>My favourite colour is blue and I wear comfy socks</p>
+    </section>
 
-  <section id="data-input">
-    <h1>Font Styler</h1>
+    <section id="data-input">
+      <h1>Font Styler</h1>
 
-    <label>Font Size
-      <input id="input-size" type="number">
-    </label>
+      <label>Font Size
+        <input id="input-size" class="fields" type="number">
+      </label>
 
-    <label>Font Family
-      <select id="select-font">
-        <option>Helvetica</option>
-        <option>Arial</option>
-        <option>Times New Roman</option>
-        <option>Georgia</option>
-      </select>
-    </label>
+      <label>Font Family
+        <select id="select-font" class="fields">
+          <option>Helvetica</option>
+          <option>Arial</option>
+          <option>Times New Roman</option>
+          <option>Georgia</option>
+        </select>
+      </label>
 
-    <label>Font Color
-      <input id="input-color" type="color" value="#000000">
-    </label>
+      <label>Font Color
+        <input id="input-color" class="fields" type="color" value="#000000">
+      </label>
 
-    <label>Background Color
-      <input id="input-bg-color" type="color" value="#ffffff">
-    </label>
+      <label>Background Color
+        <input id="input-bg-color" class="fields" type="color" value="#ffffff">
+      </label>
 
-    <label>Enter Text
-      <textarea id="enter-text"></textarea>
-    </label>
-  </section>
+      <label>Enter Text
+        <textarea id="enter-text" class="fields"></textarea>
+      </label>
+    </section>
+  </div>
 
-  <section id="headline-display">
-    <h1 id="display">Sample Text</h1>
-  </section>
+  <div>
+    <section id="headline-display">
+      <h1 id="display">Sample Text</h1>
+    </section>
 
-  <section id="data-output">
-    <pre><code>.headline {
-    font-size: <span id="show-size">16</span>px;
-    font-family: <span id="show-font">Times</span>;
-    color: <span id="show-color">#000</span>;
-    background-color: <span id="show-bg-color">#fff</span>;
-  }</code></pre>
-  </section>
+    <section id="data-output">
+      <h1>Font Settings</h1>
+      <pre><code>.headline {
+      font-size: <span id="show-size">16</span>px;
+      font-family: <span id="show-font">Times</span>;
+      color: <span id="show-color">#000</span>;
+      background-color: <span id="show-bg-color">#fff</span>;
+    }</code></pre>
+    </section>
+  </div>
   <script src="script.js"></script>
 </body>
 
