@@ -6,7 +6,7 @@ html, body {
 body {
   display: flex;
   justify-content: center;
-  font-family: sans-serif;
+  font-family: "Helvetica", sans-serif;
   align-items: center;
 }
 
@@ -37,6 +37,10 @@ section {
   margin: 0.5em 0;
 }
 
+#input-size, #select-font, #enter-text {
+  padding: 0.2em;
+}
+
 #headline-display {
   padding: 1em;
   border: 1px solid #000000;
@@ -44,6 +48,7 @@ section {
 
 #display {
   text-align: center;
+  font-size: 32px;
 }
 
 #data-output {
